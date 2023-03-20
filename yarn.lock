@@ -1465,6 +1465,14 @@
     "@vuepress/types" "1.9.9"
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.9.9":
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.9.9.tgz#eedd5b08e11790cd994636b458188fd40205e967"
+  integrity sha512-8bNsdZ0Dr96OdcoJ67dxCx1ysXpeTHma8w+YSsqBJoWGEOucBr0nW9oaDH85yoOtpiriWBlhUO32/Q0ojJtMfA==
+  dependencies:
+    "@vuepress/types" "1.9.9"
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-blog@^1.9.2":
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.9.4.tgz#34636d0387d28221c9f2564b6255786da0dd186a"
@@ -1495,7 +1503,7 @@
     "@vuepress/types" "1.9.9"
     medium-zoom "^1.0.4"
 
-"@vuepress/plugin-nprogress@1.9.9", "@vuepress/plugin-nprogress@^1.4.0", "@vuepress/plugin-nprogress@^1.5.4":
+"@vuepress/plugin-nprogress@1.9.9", "@vuepress/plugin-nprogress@^1.4.0", "@vuepress/plugin-nprogress@^1.5.4", "@vuepress/plugin-nprogress@^1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.9.9.tgz#4fee4818ddc8ddc6a1778b7f2b74ab784c90915d"
   integrity sha512-+3fLxjwTLH8MeU54E7i1ovRu9KzBom2lvSeUsu9B8PuLyrETAqW7Pe1H66awEEALEe0ZnnEU4d7SeVe9ljsLAQ==

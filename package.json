@@ -14,6 +14,8 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/plugin-nprogress": "^1.9.9",
     "@vuepress/theme-blog": "^2.1.0",
     "vuepress": "^1.3.1",
     "vuepress-theme-default-rtl": "^1.0.2"

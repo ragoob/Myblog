@@ -1,24 +1,31 @@
 module.exports = {
-  title: 'Mohamed Ragab',
-  description: 'Mohamed Ragab',
+  plugins: ['@vuepress/nprogress','@vuepress/back-to-top'],
+  title: 'Ragab',
+  description: 'Ragab',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
+    search: false,
     nav: [
       {
         text: 'Posts',
         link: '/',
       },
       {
-        text: 'Projects',
+        text: 'GitHub',
         link: 'https://github.com/ragoob',
       },
 
       {
-        text: 'Devops course',
+        text: 'Youtube',
         link: 'https://youtu.be/f85XlAjbS5w',
+      },
+
+      {
+        text: 'About',
+        link: '/me/',
       },
     ],
     footer: {
@@ -32,14 +39,14 @@ module.exports = {
           link: 'https://twitter.com/@rgbdev',
         },
         {
-          type: 'medium',
-          link: 'https://regoo707.medium.com/',
+          type: 'Youtube',
+          link: 'https://youtu.be/f85XlAjbS5w',
         },
       ],
       copyright: [
       
         {
-          text: 'Copyright © 2018-present Mohamed Ragab',
+          text: 'Copyright © 2021-present Mohamed Ragab',
           link: 'https://ragab.blog',
         },
       ],
